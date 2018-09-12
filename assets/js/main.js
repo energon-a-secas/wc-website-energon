@@ -356,8 +356,9 @@
 							event.stopPropagation();
 
 						// Show article.
-							$main._show(location.hash.substr(1));
-
+							var $page = location.hash.substr(1);
+							$main._show($page);
+							sendPageview($page);
 					}
 
 			});
@@ -398,4 +399,6 @@
 						$main._show(location.hash.substr(1), true);
 					});
 
+			// Initial pageview
+			sendPageview('');
 })(jQuery);
