@@ -74,13 +74,8 @@
 					<li><a href="#home">Home</a></li>
 					<li><a href="#about">About</a></li>
 					<li><a href="#service">Services</a></li>
-					<li class="has-dropdown"><a href="#pricing">Solutions</a>
-						<ul class="dropdown">
-							<li><a href="downloads.html">energon-cli</a></li>
-						</ul>
-					</li>
-		<!-- <li><a href="blog-single.html">Blog</a></li>-->					
-				<li><a href="#contact">Contact</a></li>
+					<li><a href="#pricing">Solutions</a></li>
+					<li><a href="#contact">Contact</a></li>
 				</ul>
 				<!-- /Main navigation -->
 
@@ -97,9 +92,9 @@
 					<div class="col-md-10 col-md-offset-1">
 						<div class="home-content">
 							<h1 class="white-text">JOIN THE FUTURE</h1>
-							<button class="main-btn"  href="blog-single.html";>GET STARTED</button>
-							<button class="white-btn" ><a href="https://github.com/energonrocks/energon-cli/releases/download/v0.1.0-rc1/energon-v0.1.0-rc1.zip">DOWNLOAD 0.1.0</a> </button>
-							<button class="white-btn" onClick="javascript:sendEvent('Find Cubes');">FIND CUBES</button>
+							<button class="main-btn"><a  href="#about" style="color: #FFFFFF";>GET STARTED</a></button>
+							<button class="white-btn"><a href="https://github.com/energonrocks/energon-cli/releases/download/v0.1.0-rc1/energon-v0.1.0-rc1.zip" target="_blank">DOWNLOAD 0.1.0</a></button>
+							<button class="white-btn"><a href="http://lmgtfy.com/?q=find+cubes">FIND CUBES</a></button>
 						</div>
 					</div>
 					<!-- /home content -->
@@ -215,7 +210,7 @@
 							<div class="testimonial-meta">
 								<img src="./img/perso2.jpg" alt="">
 								<h3 class="white-text">John "Miguel" Hammond</h3>
-								<span>Principal Infraestructure Chief Officer</span>
+								<span>Web Enterprise Admin</span>
 							</div>
 							<p class="white-text">Dos y dos son cuatro, cuatro y dos son seis, seis y dos son ocho y ocho dieciséis.</p>
 						</div>
@@ -240,6 +235,17 @@
                                 <span>Quality Leading Internal Analytics Officer</span>
                             </div>
                             <p class="white-text">YOU CAN'T HANDLE THE TRUTH.</p>
+                        </div>
+                        <!-- /testimonial -->
+
+                        <!-- testimonial -->
+                        <div class="testimonial">
+                            <div class="testimonial-meta">
+                                <img src="./img/perso6.jpg" alt="">
+                                <h3 class="white-text">J. "Dani" Lo</h3>
+                                <span>High Defensive Professional</span>
+                            </div>
+                            <p class="white-text">C'mon people let's get loud.</p>
                         </div>
                         <!-- /testimonial -->
                 	
@@ -304,9 +310,9 @@
 				<!-- service -->
 				<div class="col-md-4 col-sm-6">
 					<div class="service">
-						<i class="fa fa-code"></i>
+						<i class="fa fa-lock"></i>
 						<h3>Security</h3>
-						<p>or else.</p>
+						<p>Underrated feature, as always.</p>
 					</div>
 				</div>
 				<!-- /service -->
@@ -315,8 +321,8 @@
 				<div class="col-md-4 col-sm-6">
 					<div class="service">
 						<i class="fa fa-compass"></i>
-						<h3>Prescriptive analytics</h3>
-						<p>Processes effectiveness.</p> 
+						<h3>IoT</h3>
+						<p>Because a cube is a thing.</p> 
 					</div>
 				</div>
 				<!-- /service -->
@@ -369,7 +375,7 @@
 				<div class="col-sm-3 col-xs-6">
 					<div class="number">
 						<i class="fa fa-trophy"></i>
-						<h3 class="white-text"><span class="counter">1</span></h3>
+						<h3 class="white-text"><span class="counter">0</span></h3>
 						<span class="white-text">Awards won</span>
 					</div>
 				</div>
@@ -379,7 +385,7 @@
 				<div class="col-sm-3 col-xs-6">
 					<div class="number">
 						<i class="fa fa-coffee"></i>
-						<h3 class="white-text"><span class="counter">248</span></h3>
+						<h3 class="white-text"><span class="counter">367</span></h3>
 						<span class="white-text">Cups of Coffee</span>
 					</div>
 				</div>
@@ -389,7 +395,7 @@
 				<div class="col-sm-3 col-xs-6">
 					<div class="number">
 						<i class="fa fa-file"></i>
-						<h3 class="white-text"><span class="counter">5</span></h3>
+						<h3 class="white-text"><span class="counter">3</span></h3>
 						<span class="white-text">Projects completed</span>
 					</div>
 				</div>
@@ -437,7 +443,7 @@
                             </li>
                         </ul>
                         <div class="price-btn">
-                            <button class="outline-btn">Access now</button>
+                            <button class="outline-btn"><a href="https://github.com/energonrocks/energon-cli" target="_blank">Access now</a></button>
                         </div>
                     </div>
                 </div>
@@ -520,7 +526,7 @@
 					<div class="contact">
 						<i class="fa fa-phone"></i>
 						<h3>Phone</h3>
-						<p>(55) 7771 007 </p>
+						<p>(+39) 03-03-456 </p>
 					</div>
 				</div>
 				<!-- /contact -->
@@ -530,7 +536,7 @@
 					<div class="contact">
 						<i class="fa fa-envelope"></i>
 						<h3>Email</h3>
-						<p>support@energon.com</p>
+						<p>support@energon.rocks</p>
 					</div>
 				</div>
 				<!-- /contact -->
@@ -552,7 +558,7 @@
 						<input type="email" class="input" placeholder="Email">
 						<input type="text" class="input" placeholder="Subject">
 						<textarea class="input" placeholder="Message"></textarea>
-						<div data-netlify-recaptcha></div>
+						<div align="center" data-netlify-recaptcha></div>
 						<button class="main-btn">Send message</button>
 					</form>
 				</div>
@@ -587,16 +593,15 @@
 
 					<!-- footer follow -->
 					<ul class="footer-follow">
-						<li><a href="#"><i class="fa fa-github"></i></a></li>
+						<li><a href="https://github.com/energonrocks"><i class="fa fa-github"></i></a></li>
 						<li><a href="#"><i class="fa fa-medium"></i></a></li>
-						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
 						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
 					</ul>
 					<!-- /footer follow -->
 
 					<!-- footer copyright -->
 					<div class="footer-copyright">
-						<p>Copyright © 2017. All Rights Reserved. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+						<p>Copyright © 2018. All Rights Reserved. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
 					</div>
 					<!-- /footer copyright -->
 
