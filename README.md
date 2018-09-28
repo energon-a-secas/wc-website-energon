@@ -1,5 +1,5 @@
-## ENERGON COMMUNITY EDITION ![This software is Blessed](https://img.shields.io/badge/blessed-100%25-770493.svg)
-It's a cube and part of [ENERGON](https://energon.rocks)
+## ENERGON![This software is Blessed](https://img.shields.io/badge/blessed-100%25-770493.svg)
+It's a cube and part of [ENERGON](https://energon.cloud)
 
 ## Credits
 
@@ -17,7 +17,7 @@ Thanks for all of the feedback!
 ## Pull requests welcome!
 
 Spotted an error? Something doesn't make sense? Send me a [pull
-request](https://github.com/LucianoAdonis/Energon-Full-Extreme-2.0/pulls)! Please avoid making
+request](https://github.com/energonrocks/website/pulls)! Please avoid making
 stylistic changes though -- they are unlikely to be accepted. Thanks!
 
 ## License
