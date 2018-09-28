@@ -1,4 +1,4 @@
-## ENERGON! [This software is Blessed](https://img.shields.io/badge/blessed-100%25-770493.svg)
+## ENERGON ![This software is Blessed](https://img.shields.io/badge/blessed-100%25-770493.svg)
 It's a cube and part of [ENERGON](https://energon.cloud)
 
 ## Credits
