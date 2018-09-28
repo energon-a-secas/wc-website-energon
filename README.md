@@ -10,6 +10,7 @@ PRs :heart: :
 
 - [@ivolivares](https://github.com/ivolivares)
 - [@tuto](https://github.com/tuto)
+- [@dsantand](https://github.com/dsantand)
 
 Thanks for all of the feedback!
 
