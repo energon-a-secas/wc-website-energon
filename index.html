@@ -1,22 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
-<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-<script>
-    window.addEventListener("load", function(){
-        window.cookieconsent.initialise({
-            "palette": {
-                "popup": {
-                    "background": "#000"
-                },
-                "button": {
-                    "background": "#f1d600"
-                }
-            }
-        })});
-</script>
-
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,11 +21,15 @@
 	<!-- Magnific Popup -->
 	<link type="text/css" rel="stylesheet" href="css/magnific-popup.css" />
 
+	<!-- Cube Flipping -->
+	<link type="text/css" rel="stylesheet" href="css/cube-flipping.css" />
+
 	<!-- Font Awesome Icon -->
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 
 	<!-- Custom stlylesheet -->
 	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
 
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
@@ -649,11 +636,14 @@
 
 	<!-- Preloader -->
 	<div id="preloader">
-		<div class="preloader">
-			<span></span>
-			<span></span>
-			<span></span>
-			<span></span>
+		<div class="cube-wrapper">
+			<div class="cube-folding">
+				<span class="leaf1"></span>
+				<span class="leaf2"></span>
+				<span class="leaf3"></span>
+				<span class="leaf4"></span>
+			</div>
+			<span class="loading" data-name="Loading">Loading the future...</span>
 		</div>
 	</div>
 	<!-- /Preloader -->
@@ -661,14 +651,13 @@
 	<!-- Analytics by QLIAO -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125651501-1"></script>
 	<script type="text/javascript" src="js/analytics.js"></script>
-
+	<!-- Cookie consent -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
 	<!-- jQuery Plugins -->
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
 	<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
-
 </body>
-
 </html>

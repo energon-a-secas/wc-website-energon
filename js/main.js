@@ -4,8 +4,18 @@
 	///////////////////////////
 	// Preloader
 	$(window).on('load', function() {
-		$("#preloader").delay(600).fadeOut();
+		$("#preloader").delay(2000).fadeOut();
 		sendPageview('');
+		window.cookieconsent.initialise({
+			"palette": {
+				"popup": {
+					"background": "#1C1D21"
+				},
+				"button": {
+					"background": "#d814eb"
+				}
+			}
+		});
 	});
 
 	///////////////////////////
